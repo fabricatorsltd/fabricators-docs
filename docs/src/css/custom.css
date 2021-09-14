@@ -24,6 +24,8 @@
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-hover-light: rgb(246, 248, 250);
+  --ifm-color-hover-dark: #0d0e0e;
   --ifm-code-font-size: 95%;
 
   /* custom */
@@ -102,16 +104,34 @@ article p code {
 }
 
 /* Pagination */
-.pagination-nav__link:hove {
+.pagination-nav__link:hover {
   border-color: transparent;
-  background-color: rgb(246, 248, 250);
+  background-color: var(--ifm-color-hover-light);
+}
+
+/* Cards */
+.row.cards {
+  gap: 10px;
+}
+
+.row.cards {
+  display: flex;
+  gap: 15px;
+}
+
+.row.cards .card {
+  flex: 1;
+}
+
+.row.cards .card:hover {
+  background-color: var(--ifm-color-hover-light);
 }
 
 /* Dark mode */
 html[data-theme="dark"] .hero--primary,
 html[data-theme="dark"] .footer--dark,
 html[data-theme="dark"] .pagination-nav__link:hover {
-  background: #0d0e0e;
+  background-color: var(--ifm-color-hover-dark);
   color: #fff;
 }
 
@@ -135,4 +155,12 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 html[data-theme='dark'] .docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
   border-right-color: var(--ifm-toc-border-color--dark);
+}
+
+html[data-theme='dark'] .row.cards .card:hover {
+  background-color: var(--ifm-color-hover-dark);
+}
+
+html[data-theme='dark'] .row.cards .card img {
+  filter: brightness(0) invert(1);
 }

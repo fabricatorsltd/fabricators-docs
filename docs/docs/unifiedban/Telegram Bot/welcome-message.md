@@ -1,6 +1,6 @@
 ---
 id: welcome
-title: Welcome
+title: Welcome Message
 sidebar_position: 1
 ---
 

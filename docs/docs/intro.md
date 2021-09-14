@@ -4,32 +4,18 @@ sidebar_position: 1
 
 # Welcome
 
-Let's discover **Docusaurus in less than 5 minutes**.
+This Doc Hub provides documentations for all fabricators.ltd product and services.
 
-## Getting Started
+:::caution Migration warning
 
-Get started by **creating a new site**.
+We are migrating the old documentation to this Doc Hub. Some pages may not be full available.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+:::
 
-## Generate a new site
+## Documentations
+- [unified/ban](/docs/unifiedban/index)
+- [feedler](/docs/feedler/index)
+- [Managed Services](/docs/ManagedServices/index)
 
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+## Support
+Feel free to contact via [e-mail](mailto:info@fabricators.ltd),  [discord](https://ds.fabricators.ltd) or our private [accounts](https://fabricators.ltd/about).

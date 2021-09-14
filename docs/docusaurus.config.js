@@ -50,12 +50,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'intro',
             position: 'right',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {
-            href: 'mailto:info@fabricators.ltd',
+            label: 'Contact us',
             position: 'right',
-            label: 'Contact Us',
+            to: '/docs/intro#support',
           },
         ],
       },
@@ -63,37 +63,36 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
+            title: 'Links',
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/fabricatorsltd',
+              },
+              {
+                label: 'Discord',
+                href: 'https://ds.fabricators.ltd',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/fabricatorssrl',
+              },
+            ],
+          },
+          {
+            title: 'Services',
+            items: [
+              {
+                label: 'unified/ban',
+                href: 'https://unifiedban.solutions',
+              },
+              {
+                label: 'feedler',
+                href: 'https://feedler.net',
+              },
+              {
+                label: 'influencer.camp',
+                href: 'https://influencer.camp',
               },
             ],
           },

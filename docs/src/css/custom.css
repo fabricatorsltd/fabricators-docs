@@ -1,0 +1,138 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Andada */
+@import url('https://fonts.googleapis.com/css2?family=Andada&display=swap');
+
+/* Source Sans Pro */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+/* Rock Salt */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+/* Kiwi Maru */
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400&display=swap');
+
+:root {
+  --ifm-color-primary: #242529;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+
+  /* custom */
+  --ifm-toc-border-color: #e9e9e9;
+  --ifm-toc-border-color--dark: #303030;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+/* Common */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Articles */
+article a {
+  text-decoration: underline;
+}
+
+article p code {
+  padding: .1em .5em;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 1rem 3.8rem 0;
+}
+
+.navbar__brand {
+  height: 3.8rem;
+}
+
+.navbar__logo {
+  margin-right: 1rem;
+}
+
+.navbar__title {
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.navbar__link--active {
+  font-weight: 600;
+}
+
+/* Footer */
+.footer.footer--dark {
+  background-color: var(--ifm-color-primary);
+}
+
+.footer.footer--dark a:hover {
+  color: #fff
+}
+
+/* react-toggle */
+.react-toggle-track-check,
+.react-toggle-track-x {
+  visibility: hidden;
+}
+
+.react-toggle--focus .react-toggle-thumb,
+.react-toggle:hover .react-toggle-thumb {
+  box-shadow: none !important;
+}
+
+/* Admonitions */
+.admonition {
+  border-left: 0;
+  border-radius: 2px;
+  position: relative;
+}
+
+/* Pagination */
+.pagination-nav__link:hove {
+  border-color: transparent;
+  background-color: rgb(246, 248, 250);
+}
+
+/* Dark mode */
+html[data-theme="dark"] .hero--primary,
+html[data-theme="dark"] .footer--dark,
+html[data-theme="dark"] .pagination-nav__link:hover {
+  background: #0d0e0e;
+  color: #fff;
+}
+
+html[data-theme="dark"] a,
+html[data-theme="dark"] .navbar__link:hover,
+html[data-theme="dark"] .navbar__link--active,
+html[data-theme="dark"] a.menu__link.menu__link--active {
+  color: rgb(255, 255, 255)
+}
+
+html[data-theme="dark"] .table-of-contents__link:hover,
+html[data-theme="dark"] .table-of-contents__link:hover code,
+html[data-theme="dark"] .table-of-contents__link--active,
+html[data-theme="dark"] .table-of-contents__link--active code {
+  color: rgb(146, 146, 146)
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme='dark'] .docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
+  border-right-color: var(--ifm-toc-border-color--dark);
+}

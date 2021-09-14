@@ -18,7 +18,7 @@ All administrators in your group and unified/ban operators can perform this comm
 ## Buttons
 
 Here is the list of buttons available in this menu:
-- [Instructions](unifiedban.solutions) (it will just link you the official site of the bot)
+- [Instructions](https://unifiedban.solutions) (it will just link you the official site of the bot)
 - [Dashboard](dashboard)
 - [Welcome Message](welcome)
 - [Captcha](captcha)

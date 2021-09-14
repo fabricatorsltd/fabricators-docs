@@ -9,10 +9,10 @@ Once active, when a new user joins the group, they are shown with a challenge to
 human and not userbots.
 
 The Captcha is integrated into the group's Welcome message, therefore once activated, the Welcome feature is also 
-enabled. For better integration you can configure the [Welcome message](/docs/welcome).
+enabled. For better integration you can configure the [Welcome message](/docs/unifiedban/welcome).
 
 ## Syntax
-The Captcha can only be enabled through the bot [configuration menu](/docs/config), then sending the `/config` 
+The Captcha can only be enabled through the bot [configuration menu](/docs/unifiedban/config), then sending the `/config` 
 command and enabling the Captcha feature.
 
 ## Reverse

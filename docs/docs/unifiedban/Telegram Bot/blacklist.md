@@ -12,7 +12,7 @@ longer able to join (or remain) in groups where there is unified/ban.
 
 All users included in this list are reported in real time in our Telegram 
 [Logs Channel](https://t.me/unifiedban_logs). Also you can see the list of the last 100 entries (with date, 
-[user_id](/docs/privacy) and reason) on our [website](https://unifiedban.solutions/Logs).
+[user_id](/docs/unifiedban/privacy) and reason) on our [website](https://unifiedban.solutions/Logs).
 
 ## Terminology
 

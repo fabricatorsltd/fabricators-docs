@@ -7,7 +7,7 @@ sidebar_position: 1
 Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
 
 ## Front Matter
-
+  
 Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
 
 ```text title="my-doc.md"
@@ -30,14 +30,14 @@ Markdown text with [links](./hello.md)
 Regular Markdown links are supported, using url paths or relative file paths.
 
 ```md
-Let's see how to [Create a page](/create-a-page).
+Let's see how tocerto.
 ```
 
 ```md
-Let's see how to [Create a page](./create-a-page.md).
+Let's see how to certo.
 ```
 
-**Result:** Let's see how to [Create a page](./create-a-page.md).
+**Result:** Let's see how to certo.
 
 ## Images
 

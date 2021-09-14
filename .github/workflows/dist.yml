@@ -19,9 +19,12 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: '14'
-    - run: cd docs
-    - run: npm install
-    - run: ls
+    
+    - name: build
+      run: |
+        cd docs
+        npm install
+        ls
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2

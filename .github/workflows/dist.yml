@@ -20,14 +20,19 @@ jobs:
       with:
         node-version: '14'
     
-    - name: build
+    - name: Install dependencies
       run: |
         cd docs
         npm install
+    
+    - name: Build release
+      run: |
+        cd docs
+        npm run build
         ls
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
         name: dist
-        path: docs/
+        path: docs/dist/

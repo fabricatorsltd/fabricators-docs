@@ -42,4 +42,4 @@ jobs:
         automatic_release_tag: continuous
         title: Continuous release
         files: |
-          build.tar.gz
+          docs/build/build.tar.gz

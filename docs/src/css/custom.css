@@ -127,10 +127,16 @@ article p code {
   background-color: var(--ifm-color-hover-light);
 }
 
+/* Hero */
+.hero.hero--secondary {
+  background-color: #f7f7f7;
+}
+
 /* Dark mode */
 html[data-theme="dark"] .hero--primary,
 html[data-theme="dark"] .footer--dark,
-html[data-theme="dark"] .pagination-nav__link:hover {
+html[data-theme="dark"] .pagination-nav__link:hover,
+html[data-theme="dark"] .hero.hero--secondary {
   background-color: var(--ifm-color-hover-dark);
   color: #fff;
 }

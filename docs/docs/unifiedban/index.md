@@ -10,6 +10,12 @@ and [much more](https://unifiedban.solutions).
 <span class="badge badge--secondary">Version: 3.9.6 (stable)</span>
 <br /><br />
 
+:::caution Migration warning
+
+We are migrating the old documentation to this Doc Hub. Some pages may not be full available.
+
+:::
+
 > The project was born in 2017 as a community driven blacklist for Telegram. Today it count over  
 > **160,000 users** and is one of the largest security and management services for Telegram.
 

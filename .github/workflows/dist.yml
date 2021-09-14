@@ -30,4 +30,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: dist
-        path: Bottles-devel-x86_64.AppImage
+        path: docs/

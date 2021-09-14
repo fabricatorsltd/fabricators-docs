@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
 on:
@@ -30,9 +28,18 @@ jobs:
         cd docs
         npm run build
         ls
+    
+    - name: Compress release
+      run: |
+        cd docs/build
+        tar -czvf build.tar.gz ./*
 
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
+    - uses: "marvinpinto/action-automatic-releases@latest"
       with:
-        name: dist
-        path: docs/build/
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        draft: false
+        prerelease: false
+        automatic_release_tag: continuous
+        title: Continuous release
+        files: |
+          build.tar.gz

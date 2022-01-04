@@ -7,7 +7,7 @@ sidebar_position: 0
 unified/ban is an easy to use, secure and modern bot for your Telegram groups
 and [much more](https://unifiedban.solutions).
 
-<span class="badge badge--secondary">Version: 3.9.6 (stable)</span>
+<span class="badge badge--secondary">Version: 3.11.x (stable)</span>
 <br /><br />
 
 :::caution Migration warning

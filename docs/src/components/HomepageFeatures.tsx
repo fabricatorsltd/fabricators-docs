@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Complete Telegram solution',
     image: '/img/unifiedban.svg',
-    to: '/docs/unifiedban/index',
+    to: '/docs/unifiedban/',
     description: (
       <>
         Keep your users safe and manage your group with the most advanced, 
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Automate your news flows',
     image: '/img/feedler.svg',
-    to: '/docs/feedler/index',
+    to: '/docs/feedler/',
     description: (
       <>
         Publish news from one or more sources on one or more platforms, 
@@ -42,7 +42,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Managed services',
     image: '/img/fabricators.svg',
-    to: '/docs/managed-services/index',
+    to: '/docs/managed-services/',
     description: (
       <>
         Learn how to use Plesk and other platforms we offer with 

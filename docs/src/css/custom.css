@@ -63,8 +63,9 @@ article p code {
   height: 3.8rem;
 }
 
-.navbar__logo {
-  margin-right: 1rem;
+.navbar div.navbar__logo {
+  margin: 0 10px 0 0;
+  height: 61px;
 }
 
 .navbar__title {
@@ -169,6 +170,11 @@ html[data-theme='dark'] .row.cards .card:hover {
 
 html[data-theme='dark'] .row.cards .card img {
   filter: brightness(0) invert(1);
+}
+
+.toggleIcon_pHJ9
+{
+  display: none !important;
 }
 
 /* Mobile */

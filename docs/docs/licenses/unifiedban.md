@@ -42,8 +42,8 @@ unified/ban - Management and protection systems
 © fabricators SRL, https://fabricators.ltd , https://unifiedban.solutions
 
 This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License with our modification
-to Section 7 as published unified/ban's the GitHub repository.
+it under the terms of the GNU Affero General Public License with our addition
+to Section 7 as published in unified/ban's the GitHub repository.
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of

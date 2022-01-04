@@ -76,6 +76,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label: 'Twitter',
                 href: 'https://twitter.com/fabricatorssrl',
               },
+              {
+                label: 'Licenses',
+                href: 'https://docs.fabricators.ltd/docs/licenses',
+              },
             ],
           },
           {

@@ -13,9 +13,10 @@ We are migrating the old documentation to this Doc Hub. Some pages may not be fu
 :::
 
 ## Documentations
-- [unified/ban](/docs/unifiedban/index)
-- [feedler](/docs/feedler/index)
-- [Managed Services](/docs/ManagedServices/index)
+- [unified/ban](/docs/unifiedban/)
+- [feedler](/docs/feedler/)
+- [licenses](/docs/licenses/)
+- [Managed Services](/docs/ManagedServices/)
 
 ## Support
 Feel free to contact via [e-mail](mailto:info@fabricators.ltd),  [discord](https://ds.fabricators.ltd) or our private [accounts](https://fabricators.ltd/about).

@@ -31,6 +31,15 @@ in original distribution without any changes in all software screens
 and enforcing restrictions on your ability to modify, change or remove 
 unified/ban and/or fabricator's names and logos from unified/ban software.
 
+If you use this source code, even partially, for your commercial purposes:
+- you must clearly declare it and reference our GitHub Organization (on websites,
+blog posts,media, newsletter, etc.)
+- you can't replicate our services with the sole scope of competition
+- you can't convey a services/products declaring it as base of our services/products
+
+It is strictly forbidden to convey a product/service based on this source code
+replacing the license terms partially and/or completely.
+
 For more information, see Licensing FAQ: 
 
 https://docs.fabricators.ltd/docs/licenses/faq
